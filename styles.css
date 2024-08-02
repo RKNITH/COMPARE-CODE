@@ -72,11 +72,11 @@ pre {
 }
 
 .diff-added {
-    background-color: #e6ffed;
+    background-color: #09f34b;
 }
 
 .diff-removed {
-    background-color: #ffeef0;
+    background-color: #ec0722;
 }
 
 footer {
