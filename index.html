@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Difference Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Code Difference Checker</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <textarea id="code1" placeholder="Enter first code here..."></textarea>
+            <textarea id="code2" placeholder="Enter second code here..."></textarea>
+        </section>
+        <button onclick="compareCode()">Compare</button>
+        <section class="output-section">
+            <pre id="result1"></pre>
+            <pre id="result2"></pre>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Code Difference Checker</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

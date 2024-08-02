@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 1em 0;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1em;
+    padding: 1em;
+    font-family: monospace;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.output-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+pre {
+    background-color: #f8f8f8;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.diff-added {
+    background-color: #e6ffed;
+}
+
+.diff-removed {
+    background-color: #ffeef0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .output-section {
+        flex-direction: column;
+    }
+
+    pre {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
